@@ -1,0 +1,12 @@
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+.env
+.next
+
+# Dependency directories
+node_modules/
+
+# Compiled TypeScript files
+dist
