@@ -8,6 +8,7 @@ async function getCerts(): Promise<Array<Certificate>> {
     const response = await axios.get(`${HOSTNAME}/api/certs/`, {
       headers: {
         'X-API-Key': getCookie('apiKey'), // Including the API key in the headers
+        'Cache-Control': 'no-cache',
       },
     });
 
